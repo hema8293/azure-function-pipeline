@@ -42,7 +42,7 @@ stages:
     steps:
     - task: AzureFunctionApp@1
       inputs:
-        azureSubscription: 'AzureForStudents-Connection'  # This is your Service Connection Name
+        azureSubscription:'lab4connect'  # This is your Service Connection Name
         appType: functionApp
         appName: 'azure-func-hema8933095'                # Your Function App Name
         package: '$(System.DefaultWorkingDirectory)'
